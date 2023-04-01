@@ -1,17 +1,17 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Joke from './Joke';
+import Experience from './Experience';
+import Contents from './Contents';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Joke />} />
+        <Route path="/scene" element={<Experience />} />
+        <Route path="/contents" element={<Contents />} />
       </Routes>
     </div>
   )
