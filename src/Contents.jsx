@@ -6,6 +6,7 @@ export default function Contents() {
     <div className="Contents">
       <h2 className="page-title">APIs in React</h2>
       <div className="div-wrapper">
+    <p></p>
         <div className="grid-square d1">1</div>
         <div className="grid-square d2">2</div>
         <div className="grid-square d3">3</div>
